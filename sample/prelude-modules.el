@@ -12,10 +12,10 @@
 
 ;;; Programming languages support
 (require 'prelude-c)
-;; (require 'prelude-clojure)
+(require 'prelude-clojure)
 ;; (require 'prelude-coffee)
 ;; (require 'prelude-common-lisp)
-;; (require 'prelude-css)
+(require 'prelude-css)
 (require 'prelude-emacs-lisp)
 ;; (require 'prelude-erlang)
 ;; (require 'prelude-elixir)
@@ -29,7 +29,7 @@
 (require 'prelude-perl)
 ;; (require 'prelude-python)
 ;; (require 'prelude-ruby)
-;; (require 'prelude-scala)
+(require 'prelude-scala)
 (require 'prelude-scheme)
 (require 'prelude-shell)
 ;; (require 'prelude-scss)
