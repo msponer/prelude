@@ -9,3 +9,6 @@
 (add-hook 'clojure-mode-hook #'aggressive-indent-mode)
 
 (menu-bar-mode -1)
+
+;; Get rid of Ensime welcome screen, so dumb.
+(setq ensime-startup-snapshot-notification `nil)
